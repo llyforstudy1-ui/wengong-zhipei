@@ -1,0 +1,10 @@
+scene,policy,stop_min,late,products,distance_m,max_station_stop_min
+steady,fifo,86.8458,24,307,2181.60,27.6000
+steady,risk,98.5458,22,284,2250.00,48.0000
+steady,aging,86.8458,24,307,2181.60,27.6000
+surge,fifo,93.9125,24,307,2181.60,34.6667
+surge,risk,106.5458,22,284,2250.00,48.0000
+surge,aging,93.9125,24,307,2181.60,34.6667
+tight,fifo,135.7833,17,207,1520.00,38.4000
+tight,risk,151.0833,14,164,1572.50,57.6000
+tight,aging,138.3833,17,201,1520.00,39.6167
