@@ -1,0 +1,83 @@
+{
+  "checks": "PASS: conservation, bounds, duplicate requests, deterministic replay, transport, event timing, batching",
+  "results": [
+    {
+      "scene": "steady",
+      "policy": "fifo",
+      "time": 3600,
+      "stop": 86.84583333333333,
+      "late": 24,
+      "produced": 307,
+      "distance": 2181.5999999999544,
+      "deliveries": 23,
+      "pending": 3,
+      "wip": 2,
+      "busy": 0.9866666666666667
+    },
+    {
+      "scene": "steady",
+      "policy": "risk",
+      "time": 3600,
+      "stop": 98.54583333333333,
+      "late": 22,
+      "produced": 284,
+      "distance": 2249.9999999999704,
+      "deliveries": 21,
+      "pending": 3,
+      "wip": 2,
+      "busy": 0.9866666666666667
+    },
+    {
+      "scene": "surge",
+      "policy": "fifo",
+      "time": 3600,
+      "stop": 93.9125,
+      "late": 24,
+      "produced": 307,
+      "distance": 2181.5999999999544,
+      "deliveries": 23,
+      "pending": 3,
+      "wip": 2,
+      "busy": 0.9866666666666667
+    },
+    {
+      "scene": "surge",
+      "policy": "risk",
+      "time": 3600,
+      "stop": 106.54583333333333,
+      "late": 22,
+      "produced": 284,
+      "distance": 2249.9999999999704,
+      "deliveries": 21,
+      "pending": 3,
+      "wip": 2,
+      "busy": 0.9866666666666667
+    },
+    {
+      "scene": "tight",
+      "policy": "fifo",
+      "time": 3600,
+      "stop": 135.78333333333333,
+      "late": 17,
+      "produced": 207,
+      "distance": 1520,
+      "deliveries": 16,
+      "pending": 3,
+      "wip": 2,
+      "busy": 1
+    },
+    {
+      "scene": "tight",
+      "policy": "risk",
+      "time": 3600,
+      "stop": 151.08333333333334,
+      "late": 14,
+      "produced": 164,
+      "distance": 1572.5,
+      "deliveries": 13,
+      "pending": 3,
+      "wip": 2,
+      "busy": 1
+    }
+  ]
+}
